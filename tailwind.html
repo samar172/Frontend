@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Tailwind Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100 p-6">
+
+    <div class="max-w-sm w-full bg-white rounded-2xl shadow-lg p-6">
+        <!-- Profile Section -->
+        <div class="flex items-center space-x-4">
+            <img class="w-16 h-16 rounded-full object-cover border-2 border-blue-500" 
+                 src="https://randomuser.me/api/portraits/men/32.jpg" 
+                 alt="User">
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800">John Doe</h2>
+                <p class="text-gray-500 text-sm">@johndoe</p>
+            </div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="flex justify-between mt-6">
+            <div class="text-center">
+                <p class="text-lg font-bold text-gray-800">120</p>
+                <p class="text-gray-500 text-sm">Posts</p>
+            </div>
+            <div class="text-center">
+                <p class="text-lg font-bold text-gray-800">5.2K</p>
+                <p class="text-gray-500 text-sm">Followers</p>
+            </div>
+            <div class="text-center">
+                <p class="text-lg font-bold text-gray-800">980</p>
+                <p class="text-gray-500 text-sm">Following</p>
+            </div>
+        </div>
+
+        <!-- Action Button -->
+        <button class="mt-6 w-full py-2 bg-blue-500 text-white font-semibold rounded-lg 
+                       hover:bg-blue-600 transition duration-300">
+            Follow
+        </button>
+    </div>
+
+</body>
+</html>
