@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg') no-repeat center center/cover;
+}
+
+.container {
+    text-align: center;
+    background: rgba(44, 44, 44, 0.419);
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h1 {
+    padding-bottom:50px;
+    font-size: 2rem;
+    color: #fffefe;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: rgb(243, 237, 237);
+    border-radius: 50px;
+    margin: 5px 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.signup {
+
+    background-color: #2759cd;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+.forgot{
+    margin-bottom: 100px;
+    padding: 5px;
+    color:white;
+}
